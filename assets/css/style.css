@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
+
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body{
+   background-color: #F6F8F9;
+   font-family: 'Rubik', sans-serif;
+}
+
+#heading{
+   align-content: center;
+   display: flex;
+   flex-wrap: wrap;
+}
+
+header{
+   background-color: #FFFFFF;
+   padding: 10px 20px;
+   margin-bottom: 40px;
+   border: 1px solid black;
+}
+
+#title{
+   vertical-align: middle;
+   font-size: 2.188rem;
+   
+}
+
+.container{
+   border: 1px solid black;
+   height: 770px;
+   width: 50%;
+   margin: auto;
+   border-radius: 1%;
+   background-color: #FFF;
+   padding: 15px 50px;
+}
+
+.buttons{
+   display: inline;
+   color: white;
+   border: none;
+   border-radius: 5px;
+   height: 30px;
+   width: 75px;
+   margin: 3px 3px;
+}
+
+#add-task{
+   background-color: #47ADF1;
+
+}
+
+#add-section{
+   background-color: #FFF;
+   color: gray;
+   border: 1px solid gray;
+   width: 90px;
+}
+
+#buttons-container{
+   border: 1px solid black;
+   height: 60px;
+   width: 50%;
+   margin: auto;
+   border-top-left-radius: 10px;
+   border-top-right-radius: 10px;
+   background-color: #FFF;
+   padding: 15px 50px;
+}
