@@ -21,7 +21,6 @@ header{
    background-color: #FFFFFF;
    padding: 10px 20px;
    margin-bottom: 40px;
-   border: 1px solid black;
 }
 
 #title{
@@ -31,7 +30,6 @@ header{
 }
 
 .container{
-   border: 1px solid black;
    height: 770px;
    width: 50%;
    margin: auto;
@@ -41,8 +39,6 @@ header{
 }
 
 .buttons{
-   display: inline;
-   color: white;
    border: none;
    border-radius: 5px;
    height: 30px;
@@ -52,23 +48,145 @@ header{
 
 #add-task{
    background-color: #47ADF1;
-
+   color: white;
 }
 
 #add-section{
    background-color: #FFF;
    color: gray;
    border: 1px solid gray;
-   width: 90px;
+   width: 95px;
 }
 
 #buttons-container{
-   border: 1px solid black;
    height: 60px;
    width: 50%;
    margin: auto;
    border-top-left-radius: 10px;
    border-top-right-radius: 10px;
    background-color: #FFF;
-   padding: 15px 50px;
+   padding: 15px 55px;
+   margin-bottom: 2px;
+}
+
+#container{
+   height: 710px;
+   width: 50%;
+   margin: auto;
+   border-bottom-left-radius: 10px;
+   border-bottom-right-radius: 10px;
+   background-color: #FFF;
+   padding: 40px 55px;
+}
+
+.titles{
+   font-size: 1.5rem;
+   margin-bottom: 20px;
+}
+
+.titles::before{
+  content: "\25BC";
+  font-size: 1rem;
+}
+
+.check::before{
+   content: "\2714";
+   border: 1px solid #A8DDD1;
+   color: #A8DDD1;
+   padding: 1px 3px;
+   font-size: 0.7rem;
+   border-radius: 50%;
+   margin-right: 10px;
+}
+
+.cross::before{
+   content: "\2716";
+   border: 1px solid #EA4439;
+   color: #EA4439;
+   padding: 1px 3px;
+   font-size: 0.7rem;
+   border-radius: 50%;
+   margin-right: 10px;
+}
+
+.check, .cross{
+   margin-bottom: 15px;
+}
+
+.section{
+   margin-bottom: 40px;
+}
+
+.tag-editorial{
+   background-color: #47ADF1;
+   border: none;
+   font-size: 0.7rem;
+   border-radius: 10px;
+   height: auto;
+   width: auto;
+   margin: 0px 5px;
+   padding: 5px 5px;
+   color: white;
+}
+
+
+
+.tag-goals{
+   background-color: #9C72E4;
+   border: none;
+   font-size: 0.7rem;
+   border-radius: 10px;
+   height: auto;
+   width: auto;
+   margin: 0px 5px;
+   padding: 5px 5px;
+   color: white;
+}
+
+.tag-recruiting{
+   background-color: #64C0A9;
+   border: none;
+   font-size: 0.7rem;
+   border-radius: 10px;
+   height: auto;
+   width: auto;
+   margin: 0px 5px;
+   padding: 5px 5px;
+   color: white;
+}
+
+.tag-mobile{
+   background-color: #F29E33;
+   border: none;
+   font-size: 0.7rem;
+   border-radius: 10px;
+   height: auto;
+   width: auto;
+   margin: 0px 5px;
+   padding: 5px 5px;
+   color: white;
+}
+
+.tag-website{
+   background-color: #D863A1;
+   border: none;
+   font-size: 0.7rem;
+   border-radius: 10px;
+   height: auto;
+   width: auto;
+   margin: 0px 5px;
+   padding: 5px 5px;
+   color: white;
+}
+
+.tag-sales{
+   background-color: #B0C926;
+   border: none;
+   font-size: 0.7rem;
+   border-radius: 10px;
+   height: auto;
+   width: auto;
+   margin: 0px 5px;
+   padding: 5px 5px;
+   color: white;
 }
