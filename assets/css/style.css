@@ -11,6 +11,10 @@ body{
    font-family: 'Rubik', sans-serif;
 }
 
+ul{
+   list-style-type: none;
+}
+
 #heading{
    align-content: center;
    display: flex;
